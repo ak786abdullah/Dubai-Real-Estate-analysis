@@ -3,7 +3,7 @@
 ##  Project Overview
 An exploratory data analysis (EDA) of the Dubai real estate market aimed at identifying profitable investment opportunities. This project involves cleaning a dataset of **39k+ property listings**, engineering features like **Rental Yield**, and validating data integrity using statistical correlation checks.
 
-##  The "Aha!" Moment (Data Cleaning)
+##   (Data Cleaning)
 During initial inspection, I discovered a **negative correlation (-0.25)** between `beds` (number of bedrooms) and `area_sqft`.
 * **The Problem:** Mathematically, as bedroom count increases, area should increase. The data defied logic.
 * **The Cause:** I found that **37.8%** of the dataset had `0` values for `area_sqft`.
